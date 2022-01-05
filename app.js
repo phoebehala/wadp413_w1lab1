@@ -49,3 +49,10 @@ mySecondArr.find((num)=>{
     }
 })
 
+
+/*
+    g) Use setTimeout() function. Pass it a callback function as a parameter that console logs “Goodbye” after 3 seconds.
+*/
+setTimeout(()=>{
+    console.log('Goodbye');
+}, 3000)

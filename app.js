@@ -38,3 +38,14 @@ console.log(mySecondArr);
 /*
     f) Filter the contents of your mySecondArr using an anonymous function that console logs the numbers above average number (you’ll need to find the average first).
 */
+
+const length = mySecondArr.length;
+const avg = result3/length;
+//console.log(avg);
+
+mySecondArr.find((num)=>{
+    if(num > avg){
+        console.log(num);
+    }
+})
+

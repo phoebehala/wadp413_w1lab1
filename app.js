@@ -56,3 +56,24 @@ mySecondArr.find((num)=>{
 setTimeout(()=>{
     console.log('Goodbye');
 }, 3000)
+
+
+
+/*
+    h) Create an “Employee” object that has the following key-value pairs: “name”, “email”, “department” and “startDate”.  
+*/
+
+const Employee ={
+    name:'Bob',
+    email:'bob@hala.com',
+    department:'RD',
+    startDate:'Jan 5'
+}
+console.log(Employee);
+
+/*
+    i) Destructure your object to create a new object, called “Person”, that only has name and email keys (and the corresponding values).
+*/
+const { name, email } = Employee
+const Person = Object.assign({ name, email })
+console.log(Person);
